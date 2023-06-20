@@ -13,8 +13,7 @@
     "build:foundry": "forge build",
     "build:hardhat": "hardhat compile",
     "node:foundry": "anvil",
-    "node:hardhat": "hardhat node",
-    "postinstall": "forge remappings > remappings.txt"
+    "node:hardhat": "hardhat node"
   },
   "keywords": [],
   "author": "",
