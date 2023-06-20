@@ -60,5 +60,5 @@ jobs:
         
       - name: Run Hardhat tests
         run: |
-          npm run test
+          npm run test:hardhat
         id: hardhat-test
