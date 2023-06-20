@@ -13,6 +13,11 @@ function getRemappings() {
 
 const config: HardhatUserConfig = {
   solidity: "0.8.18",
+  networks: {
+    localhost: {
+      url: "http://localhost:8545",
+    },
+  },
   preprocess: {
     eachLine: (hre) => ({
       transform: (line: string) => {

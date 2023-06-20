@@ -8,7 +8,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:foundry": "forge test",
+    "test:hardhat": "hardhat test",
+    "build:foundry": "forge build",
+    "build:hardhat": "hardhat compile",
+    "node:foundry": "anvil",
+    "node:hardhat": "hardhat node",
+    "postinstall": "forge remappings > remappings.txt"
   },
   "keywords": [],
   "author": "",
